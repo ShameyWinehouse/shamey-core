@@ -23,3 +23,6 @@ The first purpose is intended to be supplemental to well-made third-party librar
 - jo_libs
 - VORP Framework
 - (This also uses `30log` for OOP, but a standalone copy is included.)
+
+## License & Support
+This software was formerly proprietary to Rainbow Railroad Roleplay, but I am now releasing it free and open-source under GNU GPLv3. I cannot provide any support.
