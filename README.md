@@ -22,4 +22,4 @@ The first purpose is intended to be supplemental to well-made third-party librar
 ## Requirements
 - jo_libs
 - VORP Framework
-(This also uses `30log` for OOP, but a standalone copy is included.)
+- (This also uses `30log` for OOP, but a standalone copy is included.)
