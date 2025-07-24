@@ -6,7 +6,7 @@ The purpose of this script is twofold:
 1. Keep the codebase as D.R.Y. as (reasonably) possible by providing a library of common utility functions in a centralized API, to be used by other scripts.
 2. Housing some smaller "misfit" features that are too small to be in their own script, but need to run regardless (e.g. telegram notification icon).
 
-The first purpose is intended to be supplemental to well-made third-party libraries like [jo_libs](Jump-On-Studios/RedM-jo_libs).
+The first purpose is intended to be supplemental to well-made third-party libraries like [jo_libs](https://github.com/Jump-On-Studios/RedM-jo_libs).
 
 ## Features
 - **API** - Provides clean, optimized functions for common tasks that other scripts can use.
