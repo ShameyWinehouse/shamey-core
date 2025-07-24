@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="style.js" type="text/javascript"></script>
+	</head>
+	<body>
+		<div class="main">
+			
+			<div class="container">
+
+				<!-- REUSABLE VISUAL DEBUG TOOL -->
+				<div id="debug-container">
+					<div id="debug-item-template" class="debug-item">
+						<div class="debug-item-key"></div>
+						<div class="debug-item-value"></div>
+					</div>
+				</div>
+				<!-- REUSABLE VISUAL DEBUG TOOL -->
+
+				<!-- TELEGRAM NOTIFY -->
+				<div id="telegram-container" class="display-none">
+					<div class="icon-bg">
+						<svg class="circle" width="40" height="40">
+							<circle class="background" stroke="#FFFFFF" stroke-width="4" style="stroke-opacity: .2;" fill="black" r="18"
+							cx="20" cy="20" stroke-dasharray="100 0" stroke-dashoffset="0" />
+							</circle>
+						</svg>
+					</div>
+					<div class="icon green">
+						<svg fill="#fff" height="20px" width="20px" viewBox="0 0 395 395">
+							<g>
+								<polygon points="395,320.089 395,74.911 258.806,197.5 	"/>
+								<polygon points="197.5,252.682 158.616,217.682 22.421,340.271 372.579,340.271 236.384,217.682 	"/>
+								<polygon points="372.579,54.729 22.421,54.729 197.5,212.318 	"/>
+								<polygon points="0,74.911 0,320.089 136.194,197.5 	"/>
+							</g>
+						</svg>
+					</div>
+				</div>
+				<!-- /TELEGRAM NOTIFY -->
+			</div>
+
+		</div>
+	</body>
+</html>

@@ -1,0 +1,3 @@
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `id`, `metadata`, `desc`) VALUES ('accessiblity_advanced_compass', 'Advanced Compass', '1', '0', 'item_standard', '0', NULL, '{}', '[Accessibility]');
+
+INSERT INTO `items` (`item`, `label`, `limit`, `can_remove`, `type`, `usable`, `id`, `metadata`, `desc`) VALUES ('accessiblity_horse_whistle', 'Horse Whistle', '1', '0', 'item_standard', '0', NULL, '{}', '[Accessibility]');

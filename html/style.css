@@ -1,0 +1,56 @@
+
+.main {
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+    padding: 0;
+    margin: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.container {
+	position: absolute;
+	left: 20px;
+	top: 20px;
+}
+
+.icon {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.display {
+	display: block;
+}
+
+.display-none {
+	display: none;
+}
+
+.green {
+	filter: invert(57%) sepia(78%) saturate(3358%) hue-rotate(82deg) brightness(122%) contrast(121%);
+}
+
+
+/* DEBUG TOOL */
+
+#debug-container {
+	font-family: 'Courier New', Courier, monospace;
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.debug-item {
+	display: flex;
+	gap: 10px;
+	color: white;
+	font-size: 16pt;
+}
+
+.debug-item-key {
+	font-weight: bold;
+}
